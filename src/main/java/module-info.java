@@ -11,6 +11,6 @@ module com.fxsczxcj.game {
 //    requires eu.hansolo.tilesfx;
 //    requires com.almasb.fxgl.all;
 
-    opens com.fxsczxcj.game2048 to javafx.fxml;
+    opens com.fxsczxcj.game2048;
     exports com.fxsczxcj.game2048;
 }
