@@ -4,9 +4,7 @@ import javafx.fxml.FXML;
 import javafx.geometry.HPos;
 import javafx.geometry.VPos;
 import javafx.scene.control.Label;
-import javafx.scene.layout.*;
-import javafx.scene.paint.Paint;
-import javafx.scene.text.Font;
+import javafx.scene.layout.GridPane;
 
 public class HelloController {
 
@@ -14,14 +12,8 @@ public class HelloController {
     public GridPane checkerboard;
     @FXML
     public Label welcomeText;
-    private HelloApplication mainApp;
-    private Border border;
-
-    {
-        BorderStroke borderStroke = new BorderStroke(Paint.valueOf("#ffa502"), BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(8));
-        border = new Border(borderStroke);
-    }
-
+//    BorderStroke borderStroke = new BorderStroke(Paint.valueOf("#ffa502"), BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(8));
+//    private Border border = new Border(borderStroke);
 
     @FXML
     private void initialize() {
