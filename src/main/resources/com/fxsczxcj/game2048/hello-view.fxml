@@ -9,12 +9,16 @@
 <?import javafx.scene.text.Font?>
 
 <VBox fx:id="vbox"
-        alignment="CENTER" stylesheets="@hello-view.css"
-      xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+      alignment="CENTER"
+      stylesheets="@hello-view.css"
+      xmlns="http://javafx.com/javafx/18"
+      xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.fxsczxcj.game2048.HelloController">
     <children>
 
-        <Label fx:id="welcomeText" text="2048">
+        <Label
+                fx:id="welcomeText"
+                text="2048">
             <font>
                 <Font name="Consolas" size="40.0"/>
             </font>

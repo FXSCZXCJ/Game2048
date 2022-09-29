@@ -24,6 +24,7 @@ public class HelloApplication extends Application {
         return new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent keyEvent) {
+                myController.addRandomNodes();
                 System.out.printf("Key:%s\n",keyEvent.getCode());
             }
         };
