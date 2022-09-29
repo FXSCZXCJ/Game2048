@@ -23,14 +23,21 @@ public class HelloController {
 
         for (int i = 0; i < text.length; i++) {
             text[i] = new Label("2");
-//            text[i].setBorder(border);
-
             GridPane.setHalignment(text[i], HPos.CENTER);
             GridPane.setValignment(text[i], VPos.CENTER);
-
+            text[i].setId("Num0");
             checkerboard.add(text[i], i / 4, i % 4);
+
+
         }
+        System.out.println(Num.Num0.name());
     }
 
+    enum Num {
+        Num0,
+        Num2
+
+
+    }
 
 }

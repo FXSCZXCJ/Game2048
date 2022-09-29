@@ -1,0 +1,57 @@
+#welcomeText {
+    /*-fx-background-color: #9999FF;*/
+}
+
+#checkerboard {
+    -fx-background-color: #ECD452;
+    -fx-background-radius: 8;
+    -fx-padding: 8;
+}
+
+#checkerboard Label {
+    -fx-background-color: #9f8b3f;
+    -fx-background-radius: 8;
+    -fx-alignment: CENTER;
+    -fx-font-size: 50;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+}
+
+#checkerboard #Num0 {
+    -fx-background-color: #ff8585;
+}
+#checkerboard #Num2 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num4 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num8 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num16 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num32 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num64 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num128 {
+    -fx-background-color: #ffffff;
+}
+
+#checkerboard #Num256 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num512 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num1024 {
+    -fx-background-color: #ffffff;
+}
+#checkerboard #Num2048 {
+    -fx-background-color: #ffffff;
+}
+
