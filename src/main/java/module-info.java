@@ -2,6 +2,7 @@ module com.fxsczxcj.game {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
+    requires annotations;
 
 //    requires org.controlsfx.controls;
 //    requires com.dlsc.formsfx;
