@@ -1,5 +1,5 @@
-#welcomeText {
-    /*-fx-background-color: #9999FF;*/
+#titleText {
+
 }
 
 #checkerboard {
@@ -9,7 +9,6 @@
 }
 
 #checkerboard Label {
-
     -fx-background-color: #9f8b3f;
     -fx-background-radius: 8;
     -fx-alignment: CENTER;
@@ -20,25 +19,33 @@
 
 #checkerboard #Num0 {
     -fx-background-color: #ccbcb4;
+    -fx-text-fill: #ccbcb4;
 }
+
 #checkerboard #Num2 {
     -fx-background-color: #ebe0cb;
 }
+
 #checkerboard #Num4 {
     -fx-background-color: #eedab0;
 }
+
 #checkerboard #Num8 {
     -fx-background-color: #ffff00;
 }
+
 #checkerboard #Num16 {
     -fx-background-color: #f49463;
 }
+
 #checkerboard #Num32 {
     -fx-background-color: #f57b5e;
 }
+
 #checkerboard #Num64 {
     -fx-background-color: RED;
 }
+
 #checkerboard #Num128 {
     -fx-background-color: #f1d06b;
 }
@@ -46,12 +53,15 @@
 #checkerboard #Num256 {
     -fx-background-color: #ffffff;
 }
+
 #checkerboard #Num512 {
     -fx-background-color: #edc716;
 }
+
 #checkerboard #Num1024 {
     -fx-background-color: #e9c140;
 }
+
 #checkerboard #Num2048 {
     -fx-background-color: #aa89bb;
 }

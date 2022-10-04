@@ -4,6 +4,7 @@ module com.fxsczxcj.game {
     requires javafx.web;
     requires annotations;
 
+
 //    requires org.controlsfx.controls;
 //    requires com.dlsc.formsfx;
 //    requires validatorfx;
